@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class main {
+class Main {
 
     public static int add(int a, int b) {
         return a + b;
@@ -66,6 +66,7 @@ class main {
                 }
             } else {
                 System.out.println("not a integer value");
+                scan.nextLine();
             }
         }
     }
