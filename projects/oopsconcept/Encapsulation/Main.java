@@ -1,8 +1,13 @@
 class BankAccount {
     // private data variables (public , proctected, private)
     // access modifiers
+    private int secretkey = 239478;
     private String accountHolder;
     private double balance;
+
+    public int getSecret() {
+        return secretkey;
+    }
 
     BankAccount(String accountHolder, double balance) {
         this.accountHolder = accountHolder;
@@ -42,5 +47,6 @@ public class Main {
 
         person1.displayAccountInfo();
 
+        System.out.println("secretkey is: " + person1.getSecret());
     }
 }
