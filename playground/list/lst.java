@@ -4,6 +4,43 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+class GroseryList {
+    private List<Grosery> dailyItems;
+
+    // constructor
+    public GroseryList() {
+        this.dailyItems = new ArrayList<>();
+    }
+}
+
+class Grosery {
+    private String item;
+    private String quentity;
+
+    // constructor
+    public Grosery(String item, String quentity) {
+        this.item = item;
+        this.quentity = quentity;
+    }
+
+    // getter and setter
+    public String getItem() {
+        return item;
+    }
+
+    public void setItem(String item) {
+        this.item = item;
+    }
+
+    public String getQuentity() {
+        return quentity;
+    }
+
+    public void setQuentity(String quentity) {
+        this.quentity = quentity;
+    }
+}
+
 public class lst {
     public static void main(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
