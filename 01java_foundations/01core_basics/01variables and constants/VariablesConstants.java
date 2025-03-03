@@ -1,5 +1,5 @@
-public class VariablesConstants{
-    public static void main(String[] args){
+public class VariablesConstants {
+    public static void main(String[] args) {
         // Variables
         int age = 25;
         double salary = 50000.50;

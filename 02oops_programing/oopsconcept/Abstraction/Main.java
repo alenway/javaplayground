@@ -1,66 +1,66 @@
-// interface Moves {
-//     void movement();
+/* interface Moves {
+    void movement();
 
-//     void action();
-// }
+    void action();
+}
 
-// abstract class Toy implements Moves {
-//     protected String name;
-//     int speed;
+abstract class Toy implements Moves {
+    protected String name;
+    int speed;
 
-//     Toy(String name) {
-//         this.name = name;
-//     }
+    Toy(String name) {
+        this.name = name;
+    }
 
-//     public abstract void movement();
+    public abstract void movement();
 
-//     public abstract void action();
+    public abstract void action();
 
-//     void play() {
-//         System.out.println("abstract play method. and this is name: " + name + " this is his speed: " + speed);
-//     }
+    void play() {
+        System.out.println("abstract play method. and this is name: " + name + " this is his speed: " + speed);
+    }
 
-//     abstract void turnOn();
-// }
+    abstract void turnOn();
+}
 
-// class Car extends Toy {
-//     Car(String name) {
-//         super(name);
-//         this.name = name;
-//     }
+class Car extends Toy {
+    Car(String name) {
+        super(name);
+        this.name = name;
+    }
 
-//     public void movement() {
-//         System.out.println("movement method from abstract toy in the interface.");
-//     }
+    public void movement() {
+        System.out.println("movement method from abstract toy in the interface.");
+    }
 
-//     public void action() {
-//         System.out.println("action method from abstract toy in the interface.");
-//     }
+    public void action() {
+        System.out.println("action method from abstract toy in the interface.");
+    }
 
-//     void turnOn() {
-//         System.out.println("the car is ready.");
-//     }
+    void turnOn() {
+        System.out.println("the car is ready.");
+    }
 
-//     void dash() {
-//         System.out.println("car is drifting.");
-//     }
-// }
+    void dash() {
+        System.out.println("car is drifting.");
+    }
+}
 
-// interface Candy {
-//     void taste();
+interface Candy {
+    void taste();
 
-//     void texture();
-// }
+    void texture();
+}
 
-// class DairyMilkChocklet implements Candy {
-//     public void taste() {
-//         System.out.println("taste sweet.");
-//     }
+class DairyMilkChocklet implements Candy {
+    public void taste() {
+        System.out.println("taste sweet.");
+    }
 
-//     public void texture() {
-//         System.out.println("texture is dark brown.");
-//     }
-// }
+    public void texture() {
+        System.out.println("texture is dark brown.");
+    }
+} */
 
 abstract class Toy {
     void move() {
